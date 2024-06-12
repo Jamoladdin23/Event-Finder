@@ -22,7 +22,7 @@ This is a Django REST framework-based API application for managing events. Users
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/Jamoladdin23/Event-Finder.git>
     cd <event_manager>
     ```
 
