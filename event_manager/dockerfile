@@ -1,6 +1,8 @@
-FROM python:3.11-alpine
+FROM python:3.11
 
 ENV PYTHONBUFFERED=1
+
+#RUN apk update && apk add --no-cache bash
 
 WORKDIR /code
 
@@ -10,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /code/
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+#CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
