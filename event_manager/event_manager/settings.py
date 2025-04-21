@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-5!j0@(i75vtm2osj!7&!)$ly@^_l=@otf+$40#)l&11kuz=#(^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # AUTH_USER_MODEL = 'accounts.CustomUser'
 
@@ -122,7 +122,7 @@ DATABASES = {
         'NAME': 'Event2',
         'USER': 'postgres',
         'PASSWORD': '19922301',
-        'HOST': 'localhost',
+        'HOST': 'host.docker.internal',
         'PORT': '5432',
     }
 }
